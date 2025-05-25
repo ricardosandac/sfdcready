@@ -1,0 +1,42 @@
+# User Story: Configuring List Views for {Object} in Salesforce App
+
+## Title
+As a Product Manager, I want to easily view, filter, and sort entries of {Object} in the Salesforce app, so that I can quickly access and manage relevant records based on key {Field1}, {Field2}, and other important criteria.
+
+## Acceptance Criteria
+
+- The app provides a list view for {Object} that displays selected fields, such as {Field1}, {Field2}, {Field3}, and {Field4}.
+- Users can filter {Object} records using key fields like {Field1} and {Field2}.
+- The list view supports both sorting and searching by {Field1} or {Field2}.
+- The list view allows for inline actions, such as editing or deleting a record.
+- The list view is easily accessible from the main navigation or the {Object} tab.
+
+## Example List View Configuration
+
+- **Displayed Columns:**  
+  - {Field1}
+  - {Field2}
+  - {Field3}
+  - Last Modified Date
+
+- **Filtering Options:**  
+  - Filter by {Field1} (multi-select)
+  - Filter by {Field2}
+  - Search by {Field1} or {Field3}
+
+- **Sorting:**  
+  - Default sort by Last Modified Date
+  - Allow sorting by {Field1} or {Field2}
+
+- **Quick Actions:**  
+  - Edit
+  - Delete
+  - View Details
+
+---
+
+## Notes
+
+- The list view should be optimized for Product Managers and non-technical users.
+- Only fields relevant to decision-making should be visible by default; technical or system fields should be hidden.
+- The configuration can be adapted for any {Object} in the application, following this template.
