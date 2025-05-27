@@ -1,0 +1,38 @@
+# User Story: Defining Tab Navigation for {Object} in Salesforce App
+
+## Title  
+As a Product Manager, I want clearly defined tabs for key objects like {Object1}, {Object2}, and {Object3} in the Salesforce app, so that users can navigate easily and focus on the most relevant sections of the system.
+
+## Acceptance Criteria
+
+- The app displays navigation tabs for core objects such as {Object1}, {Object2}, and {Object3}.
+- Each tab leads directly to the appropriate list view or detail page.
+- Tabs are ordered based on usage priority, starting with the most accessed objects.
+- The tab names are intuitive and follow the business language (e.g., “My Projects” instead of “Project__c”).
+- Tabs only appear for users with the necessary permissions or profiles.
+- The tab layout is mobile-responsive and works across all supported devices.
+
+## Example Tab Configuration
+
+### Tabs to Display:
+- **Projects**: Displays a list view of all relevant project records.
+- **Tasks**: Shows user-assigned and team tasks.
+- **Resources**: Lists available team members and their roles.
+- **Reports**: Opens dashboards or report summaries.
+
+### Ordering Logic:
+1. Projects (most accessed daily)
+2. Tasks (frequent updates)
+3. Resources (occasionally referenced)
+4. Reports (on-demand insights)
+
+### Visibility Rules:
+- Show **Projects** and **Tasks** for all users.
+- Show **Resources** only for **Managers**.
+- Show **Reports** only for **Admins and Analysts**.
+
+## Notes
+
+- Tabs should reflect the most important user journeys and simplify access to day-to-day functions.
+- Avoid cluttering the interface with rarely-used objects.
+- Any new object added in the future must follow this tab configuration model and be reviewed for business relevance and access profiles.
